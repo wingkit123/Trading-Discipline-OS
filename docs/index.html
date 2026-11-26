@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trading Discipline OS — 60s Brand & Product Promo Film</title>
+  <meta name="description" content="DISCIPLINE OVER IMPULSE — Local-first XAUUSD trading journal & SOP discipline coach." />
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #070b14;
+      --surface: #0f172a;
+      --border: #1e293b;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #3b82f6;
+      --gold: #eab308;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at 50% 0%, #0f172a 0%, var(--bg) 68%);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+      line-height: 1.5;
+      padding: 28px 18px 48px;
+    }
+    .wrap {
+      max-width: 1040px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .topbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .kicker {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(22px, 3vw, 30px);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 44px;
+      padding: 0 16px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform 150ms ease, border-color 150ms ease, background 150ms ease;
+    }
+    .btn:hover { border-color: #475569; transform: translateY(-1px); }
+    .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .btn.primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #ffffff;
+    }
+    .player-card {
+      background: #020617;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+    }
+    video {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #000000;
+    }
+    .chapters {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 10px;
+      padding: 14px;
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+    }
+    .chap {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2px;
+      min-height: 44px;
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: rgba(15, 23, 42, 0.75);
+      color: var(--text);
+      text-align: left;
+      cursor: pointer;
+      transition: border-color 150ms ease, background 150ms ease;
+    }
+    .chap:hover, .chap.active {
+      border-color: var(--accent);
+      background: rgba(59, 130, 246, 0.14);
+    }
+    .chap:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .chap-time {
+      font-size: 12px;
+      font-variant-numeric: tabular-nums;
+      color: var(--gold);
+      font-weight: 700;
+    }
+    .chap-title {
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .foot {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="topbar">
+      <div class="brand">
+        <span class="kicker">Discipline Over Impulse · 1080p HD</span>
+        <h1>Trading Discipline OS — 60s Product Film</h1>
+      </div>
+      <div class="actions">
+        <a class="btn primary" href="https://github.com/wingkit123/Trading-Discipline-OS">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+          GitHub Repository
+        </a>
+        <a class="btn" href="./promo.mp4" download="Trading-Discipline-OS-Promo-60s.mp4">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download MP4 (7.15 MB)
+        </a>
+      </div>
+    </header>
+
+    <section class="player-card" aria-label="Promo video player">
+      <video id="film" controls playsinline preload="metadata" poster="./promo-preview.webp">
+        <source src="./promo.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video. <a href="./promo.mp4">Download MP4</a>.
+      </video>
+
+      <div class="chapters" role="group" aria-label="Video chapters">
+        <button class="chap active" type="button" data-seek="0"><span class="chap-time">00:00</span><span class="chap-title">Act 1 · 噪音与反思</span></button>
+        <button class="chap" type="button" data-seek="8"><span class="chap-time">00:08</span><span class="chap-title">Act 2 · 盘前闸门与锁计划</span></button>
+        <button class="chap" type="button" data-seek="18"><span class="chap-time">00:18</span><span class="chap-title">Act 3 · MT5 只读与热力图</span></button>
+        <button class="chap" type="button" data-seek="30"><span class="chap-time">00:30</span><span class="chap-title">Act 4 · 过程 vs 结果矩阵</span></button>
+        <button class="chap" type="button" data-seek="43"><span class="chap-time">00:43</span><span class="chap-title">Act 5 · What-If 与 AI 教练</span></button>
+        <button class="chap" type="button" data-seek="52"><span class="chap-time">00:52</span><span class="chap-title">Act 6 · Discipline Over Impulse</span></button>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <span>1920x1080 H.264 @ 30fps · Procedural Node.js Float64 DSP Audio (D Minor -> Dmaj9)</span>
+      <span>MIT License · Local-first XAUUSD Journal</span>
+    </footer>
+  </main>
+
+  <script>
+    const video = document.getElementById('film');
+    const buttons = [...document.querySelectorAll('.chap')];
+    for (const btn of buttons) {
+      btn.addEventListener('click', () => {
+        const sec = Number(btn.dataset.seek || 0);
+        video.currentTime = sec;
+        void video.play();
+      });
+    }
+    video.addEventListener('timeupdate', () => {
+      const t = video.currentTime;
+      let activeBtn = buttons[0];
+      for (const btn of buttons) {
+        if (t >= Number(btn.dataset.seek || 0)) activeBtn = btn;
+      }
+      for (const btn of buttons) {
+        btn.classList.toggle('active', btn === activeBtn);
+      }
+    });
+  </script>
+</body>
+</html>

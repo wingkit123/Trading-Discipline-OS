@@ -6,9 +6,10 @@ Local-first XAUUSD trading journal and SOP discipline coach. Recording, review, 
 
 **DISCIPLINE OVER IMPULSE** — deterministic code-rendered 1080p/30fps product showcase (`promo-video/`):
 
-[![Watch 60s Promo Video — Trading Discipline OS](promo-video/output/previews/02_act1_question_6.8s.png)](promo-video/output/Trading-Discipline-OS-Promo-60s.mp4)
+[![Watch Full 60s Promo Film with Audio](docs/promo-preview.webp)](https://wingkit123.github.io/Trading-Discipline-OS/)
 
-- **Watch / Download MP4 (1080p H.264)**: [Trading-Discipline-OS-Promo-60s.mp4](promo-video/output/Trading-Discipline-OS-Promo-60s.mp4)
+- **Watch Online (1080p HD + Audio & Chapters)**: **[Open Promo Film Player](https://wingkit123.github.io/Trading-Discipline-OS/)** (click the animated preview above or this link to play directly in your browser)
+- **Download MP4 (1080p H.264)**: [Trading-Discipline-OS-Promo-60s.mp4](promo-video/output/Trading-Discipline-OS-Promo-60s.mp4)
 - **Scene Highlights**:
   - [Act 1 — Noise vs. Discipline](promo-video/output/previews/02_act1_question_6.8s.png) · [Act 3 — MT5 Read-Only Sync](promo-video/output/previews/06_act3_mt5sync_21.0s.png) · [Act 4 — Process vs. Outcome](promo-video/output/previews/10_act4_matrix_37.0s.png) · [Act 5 — What-If & AI Coach](promo-video/output/previews/12_act5_whatif_46.0s.png)
 - See [promo-video/README.md](promo-video/README.md) to regenerate audio or re-render the film locally.
