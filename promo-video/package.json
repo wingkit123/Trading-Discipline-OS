@@ -1,0 +1,18 @@
+{
+  "name": "trading-discipline-os-promo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "60-second brand & product promo film for Trading Discipline OS (DISCIPLINE OVER IMPULSE)",
+  "scripts": {
+    "audio": "node src/audio/generateAudio.mjs",
+    "preview": "node src/render/renderPreview.mjs",
+    "render": "node src/audio/generateAudio.mjs && node src/render/renderVideo.mjs",
+    "verify": "node src/render/verifyVideo.mjs"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "ffprobe-static": "^3.1.0",
+    "playwright-core": "^1.49.0"
+  }
+}
